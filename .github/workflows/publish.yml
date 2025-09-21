@@ -3,7 +3,7 @@ name: Publish Package to npmjs
 on:
   push:
     tags:
-      - "v*"
+      - 'v*'
 
 jobs:
   build-and-publish:
@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '20.x'
           register-url: 'https://registry.npmjs.org'
-      
+
       - name: Install Dependencies
       - run: npm install -g npm
       - run: npm ci

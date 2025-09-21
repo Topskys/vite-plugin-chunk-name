@@ -33,7 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Topskys/vite-plugin-chunk-name.git"
+    "url": "git+https://github.com/Topskys/vite-plugin-chunk-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Topskys/vite-plugin-chunk-name/issues"
   },
   "license": "MIT",
   "gitHooks": {
@@ -48,8 +51,13 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-git",
-      "useEmoji": true
+      "useEmoji": false
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true,
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

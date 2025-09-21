@@ -12,7 +12,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint-staged": "lint-staged",
     "commit": "git-cz",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "prepare": "husky"
   },
   "types": "dist/index.d.ts",

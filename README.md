@@ -2,6 +2,12 @@
 
 A Vite plugin to customize the name of chunk files.
 
+
+![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/vite-plugin-chunk-name%400.1.0?label=size)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/topskys/vite-plugin-chunk-name)
+![NPM Downloads](https://img.shields.io/npm/dw/vite-plugin-chunk-name)
+
+
 ## Install
 
 Using npm:

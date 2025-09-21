@@ -22,8 +22,7 @@ jobs:
           register-url: 'https://registry.npmjs.org'
 
       - name: Install Dependencies
-        run: npm install -g npm
-        run: npm ci
+        run: npm install -g npm && npm ci
 
       - name: Build Package
         run: npm run build

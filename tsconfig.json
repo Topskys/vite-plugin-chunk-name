@@ -9,12 +9,14 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "declaration": true,
+    "removeComments": true,
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
+    "sourceMap": false,
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,

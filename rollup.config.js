@@ -12,15 +12,15 @@ export default defineConfig({
       file: "dist/index.js",
       format: "cjs",
       exports: "auto",
-      sourcemap: true
+      sourcemap: false
     },
     {
       file: "dist/index.mjs",
       format: "esm",
       exports: "auto",
-      sourcemap: true
+      sourcemap: false
     },
   ],
   external: ["rollup", "vite", "path"],
-  plugins: [terser(), typescript()],
+  plugins: [terser(), typescript()]
 });

@@ -193,6 +193,8 @@ npm unpublish --force
 
 利用Github Actions实现CI/CD自动化NPM发包，可参考[官方文档](https://docs.npmjs.com/generating-provenance-statements#example-github-actions-workflow)或者[使用 Github Actions 自动发布包到 NPM 官网上](https://blog.csdn.net/biao_feng/article/details/136657070)。
 
+中文更具体的npm发包操作参考[图文结合简单易学的 npm 包的发布流程](https://blog.csdn.net/2401_83384536/article/details/140522864)。
+
 
 ## 其他
 
